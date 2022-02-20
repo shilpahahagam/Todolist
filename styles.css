@@ -1,0 +1,50 @@
+body{
+  background-color:white;
+  background-image: linear-gradient(#BFFFF0,#F7ECDE);
+  font-family:"Goudy Bookletter 1911", sans-serif;
+}
+.mainbox{
+  max-width:600px;
+  margin:100px auto;
+  background-color:#F7ECDE;
+  text-align:center;
+  border-radius: 10px;
+  padding:10px 0px;
+  box-shadow: 5px 5px 15px 5px rgba(255,0,0,0.2);
+}
+.box{
+  max-width:600px;
+  margin:100px 650px;
+  background-color:white;
+  padding:21px;
+}
+.items{
+  font-size:2rem;
+  text-align: center;
+  border-bottom-style:dotted;
+  border-bottom-width:1px;
+  color:#52057B;
+}
+.items:last-child{
+  border-bottom:0;
+}
+input[type="text"]{
+  padding:12px;
+}
+button{
+  background-color:#BB6464;
+  border-radius:50%;
+  font-size:1.2rem;
+  color:white;
+}
+input:checked+label{
+  text-decoration:line-through;
+  text-decoration-color:#6A5495;
+}
+input[type="checkbox"]{
+  margin:20px;
+}
+::placeholder{
+  color:gray;
+  opacity:1;
+}
